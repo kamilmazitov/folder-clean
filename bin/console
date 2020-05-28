@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+# include here main library file
+# require "main-file"
+
+require_relative '../lib/main.rb'
+require "irb"
+IRB.start
